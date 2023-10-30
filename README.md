@@ -15,4 +15,7 @@ En el caso de seguir con la compra, al pulsar el boton pagar ahora, se abrira ot
 
 Cuando presiona en pagar, este los llevara a otra pagina, en la que los felicitara y agradecera por su compra.
 
+Se utilizo una API personalizada para cargar la lista de productos. 
+los productos seleccionados y sus cantidades son colocados en un array que es almacendado en el LocalStorage del navegador y de alli son enviados a un nuevo array que almacena las ultimas compras, en caso de que los productos sean elimidados por haber sido cancelada la compra, soy eliminados del array de manera permamente.
+
 Se utilizo html, para la creacion de la pagina, css para la estilizacion de la misma, y js, para acceder y modificar elementos HTML y CSS en una página web, permitiendo crear interactividad, cambiar el contenido de la página y responder a eventos del usuario.
